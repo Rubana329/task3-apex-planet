@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advanced Styling and JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Interactive Webpage</h1>
+    <p>This project includes responsive design, a quiz, and live API data.</p>
+  </header>
+
+  <!-- Responsive Section -->
+  <section class="responsive-section">
+    <h2>Responsive Design Section</h2>
+    <p>This section adjusts layout and font sizes for mobile, tablet, and desktop.</p>
+  </section>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section">
+    <h2>Simple JavaScript Quiz</h2>
+    <div id="quiz">
+      <p id="question"></p>
+      <ul id="answers"></ul>
+      <button id="next">Next</button>
+    </div>
+  </section>
+
+  <!-- API Section -->
+  <section class="api-section">
+    <h2>Random Joke from API</h2>
+    <button onclick="fetchJoke()">Get Joke</button>
+    <p id="jokeDisplay"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
